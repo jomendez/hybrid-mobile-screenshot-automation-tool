@@ -82,5 +82,15 @@ To use the default values just run the command andit ill look for an **instructi
 ```
 $ hybridAutoScreenshot
 ```
+# Example:
+
+The following exmple was made using our premiun starter **ionAppFullPlus** uisng the gallery section that is integrated with Azure face recognition to illustrate how this tool works, in this example we implemented/used all the commands availables 
+
+Inline-style: 
+![alt text](https://s3.amazonaws.com/ionic-marketplace/ionappfullplus/icon.png "Logo ionAppFullPlus")
+
+[I'm an inline-style link](https://market.ionicframework.com/starters/ionappfullplus)
+
+
 
 
