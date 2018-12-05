@@ -2,6 +2,8 @@
 
 Use this tool to automate the process of create stardar screenshots (portrail and landscape) ready to upload to the Android and/or Applestore.
 
+**This tool is in active development and beta version. If something seems off, create an issue!**
+
 Available for Mac and Windows
 
 This command-line tool is specially useful to automatize the tedious process of taking screenshot of your hybird application specially when you support multiples language.
@@ -53,15 +55,32 @@ command + :: + param1 :;: param2
 
 
 ## The list of avalible commands for the interaction 
-+ url (Specifies the url you want to navigate to)
-+ wait (wait for the specied time in milliseconds)
-+ screenshot (Takes a screenshot)
-+ text (send text string to specified css selector)
-+ tap (send click on specified css selector)
-+ hold (send hold event to css selector)
-+ scroll (scroll on css selector, uses negative number to scroll downand positive to scroll up)
++ **url** (Specifies the url you want to navigate to)
++ **wait** (wait for the specied time in milliseconds)
++ **screenshot** (Takes a screenshot)
++ **text** (send text string to specified css selector)
++ **tap** (send click on specified css selector)
++ **hold** (send hold event to css selector)
++ **scroll** (scroll on css selector, uses negative number to scroll downand positive to scroll up)
 
 
+```
+**generic**
+$ hybridAutoScreenshot instructions.txt <ios/android/all> <language (en-US)>
+```
 
+```
+$ hybridAutoScreenshot path/to/your/file/instructions.txt ios en-US
+```
+
+```
+$ hybridAutoScreenshot instructions.txt android es-ES
+```
+
+To use the default values just run the command andit ill look for an **instructions.txt** file in the same directory of the program, **all** platforms and **en-US** language 
+
+```
+$ hybridAutoScreenshot
+```
 
 
