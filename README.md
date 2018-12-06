@@ -4,7 +4,7 @@ Use this tool to automate the process of create stardar screenshots (portrail an
 
 **This tool is in active development and beta version. If something seems off, create an issue!**
 
-Available for Mac and Windows
+Available for all platforms Mac, Linux and Windows.
 
 This command-line tool is specially useful to automatize the tedious process of taking screenshot of your hybird application specially when you support multiples language.
 
