@@ -91,7 +91,10 @@ The following example was made using our premium starter **ionAppFullPlus** usin
 
 [![ionAppFullPlus click here for more info](https://s3.amazonaws.com/ionic-marketplace/ionappfullplus/icon.png "Logo ionAppFullPlus")](https://market.ionicframework.com/starters/ionappfullplus)
 
-[ionAppFullPlus](https://market.ionicframework.com/starters/ionappfullplus)
+[ionAppFullPlus click here for more info](https://market.ionicframework.com/starters/ionappfullplus)
+
+
+click on the image below to watch video:
 
 [![Click here to watch Video](https://img.youtube.com/vi/Jdntr6OHjDU/0.jpg)](https://www.youtube.com/watch?v=Jdntr6OHjDU)
 
