@@ -89,10 +89,10 @@ $ dotnet hybridAutoScreenshot.dll
 
 The following example was made using our premium starter **ionAppFullPlus** using the gallery section that is integrated with Azure face recognition to illustrate how this tool works, in this example we implemented/used all the commands available 
 
-![alt text](https://s3.amazonaws.com/ionic-marketplace/ionappfullplus/icon.png "Logo ionAppFullPlus")
+[![ionAppFullPlus click here for more info](https://s3.amazonaws.com/ionic-marketplace/ionappfullplus/icon.png "Logo ionAppFullPlus")](https://market.ionicframework.com/starters/ionappfullplus)
 
 [ionAppFullPlus](https://market.ionicframework.com/starters/ionappfullplus)
 
-[![Video](https://img.youtube.com/vi/Jdntr6OHjDU/0.jpg)](https://www.youtube.com/watch?v=Jdntr6OHjDU)
+[![Click here to watch Video](https://img.youtube.com/vi/Jdntr6OHjDU/0.jpg)](https://www.youtube.com/watch?v=Jdntr6OHjDU)
 
 
