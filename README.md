@@ -9,9 +9,12 @@ Available for Mac and Windows
 This command-line tool is specially useful to automatize the tedious process of taking screenshot of your hybird application specially when you support multiples language.
 
 # Step 1
-Download the binary file
+Download and install (if not already installed) the dotNet SDK for your platform (Win/Linux/Mac) [here](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial)
 
-# Step 2
+# Step 2 
+Download and extract the files from this repo, in your local machine
+
+# Step 3
 Create an instructions file where you going to specify all the instructions to take the screenshots
 
 ### Instructions structure
@@ -63,24 +66,26 @@ command + :: + param1 :;: param2
 + **hold** (send hold event to css selector)
 + **scroll** (scroll on css selector, uses negative number to scroll downand positive to scroll up)
 
+# Step 4
+Run the program:
 
 ```
 **generic**
-$ hybridAutoScreenshot instructions.txt <ios/android/all> <language (en-US)>
+$ dotnet hybridAutoScreenshot.dll instructions.txt <ios/android/all> <language (en-US)>
 ```
 
 ```
-$ hybridAutoScreenshot path/to/your/file/instructions.txt ios en-US
+$ dotnet hybridAutoScreenshot.dll path/to/your/file/instructions.txt ios en-US
 ```
 
 ```
-$ hybridAutoScreenshot instructions.txt android es-ES
+$ dotnet hybridAutoScreenshot.dll instructions.txt android es-ES
 ```
 
 To use the default values just run the command andit ill look for an **instructions.txt** file in the same directory of the program, **all** platforms and **en-US** language 
 
 ```
-$ hybridAutoScreenshot
+$ dotnet hybridAutoScreenshot.dll
 ```
 # Example:
 
