@@ -1,12 +1,10 @@
-# Hybrid Mobile Screenshot Automation Tool
-
-Use this tool to automate the process of create stardar screenshots (portrail and landscape) ready to upload to the Android and/or Applestore.
+Use this tool to automate the process of create standard screenshots (portrait and landscape) ready to upload to the Android and/or Apple store.
 
 **This tool is in active development and beta version. If something seems off, create an issue!**
 
 Available for all platforms Mac, Linux and Windows.
 
-This command-line tool is specially useful to automatize the tedious process of taking screenshot of your hybird application specially when you support multiples language.
+This command-line tool is specially useful to automatize the tedious process of taking screenshot of your hybrid application specially when you support multiples language.
 
 # Step 1
 Download and install (if not already installed) the dotNet SDK for your platform (Win/Linux/Mac) [here](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial)
@@ -57,14 +55,14 @@ command + :: + param1 :;: param2
 - wait::1000
 
 
-## The list of avalible commands for the interaction 
+## The list of available commands for the interaction 
 + **url** (Specifies the url you want to navigate to)
-+ **wait** (wait for the specied time in milliseconds)
++ **wait** (wait for the specified time in milliseconds)
 + **screenshot** (Takes a screenshot)
 + **text** (send text string to specified css selector)
 + **tap** (send click on specified css selector)
 + **hold** (send hold event to css selector)
-+ **scroll** (scroll on css selector, uses negative number to scroll downand positive to scroll up)
++ **scroll** (scroll on css selector, uses negative number to scroll down and positive to scroll up)
 
 # Step 4
 Run the program:
@@ -89,12 +87,12 @@ $ dotnet hybridAutoScreenshot.dll
 ```
 # Example:
 
-The following exmple was made using our premiun starter **ionAppFullPlus** uisng the gallery section that is integrated with Azure face recognition to illustrate how this tool works, in this example we implemented/used all the commands availables 
+The following example was made using our premium starter **ionAppFullPlus** using the gallery section that is integrated with Azure face recognition to illustrate how this tool works, in this example we implemented/used all the commands available 
 
 ![alt text](https://s3.amazonaws.com/ionic-marketplace/ionappfullplus/icon.png "Logo ionAppFullPlus")
 
 [ionAppFullPlus](https://market.ionicframework.com/starters/ionappfullplus)
 
-
+[![Video](https://img.youtube.com/vi/Jdntr6OHjDU/0.jpg)](https://www.youtube.com/watch?v=Jdntr6OHjDU)
 
 
